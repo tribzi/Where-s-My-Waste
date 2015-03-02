@@ -2,11 +2,10 @@
 
 ##Data:
 Available Data:
-[1] DSNY Refuse and Recycling Disposal Networks - NYC Socrata
-Says where each type of waste from each community board goes
+[DSNY Refuse and Recycling Disposal Networks - NYC Socrata](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
+Shows where each type of waste from each community board goes
 
-
-DSNY Monthly Tonnage Data
+[DSNY Monthly Tonnage Data](https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5)
 Refuse collection by type, by community board
 
 
@@ -32,7 +31,7 @@ Refuse collection by type, by community board
 | My Trash						|
 |-------------------------------|
 | Address [user input]		   	|
-| Initial transfer station [1] 	|					
+| Initial transfer station [1](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb) 	|					
 | End point						|
 | End use					 	|
 | Total distance				|	
@@ -50,7 +49,7 @@ Refuse collection by type, by community board
 ##User Experience:
 
 1. Enter address
-2. Routes are drawn for your waste, paper, and plastic recycling to its respective Transfer station through city streets. ⇐ data exists for this [1]
+2. Routes are drawn for your waste, paper, and plastic recycling to its respective Transfer station through city streets. ⇐ data exists for this [1](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
 3. Routes are drawn from transfer stations to dump and recycling sites
 4. A blurb appears:
 ..* “Your waste travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
