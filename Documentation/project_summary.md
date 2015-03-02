@@ -1,7 +1,7 @@
 #Project Summary
 
 ##Data:
-Available Data:
+###Available Data:
 [DSNY Refuse and Recycling Disposal Networks - NYC Socrata](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
 Shows where each type of waste from each community board goes
 
