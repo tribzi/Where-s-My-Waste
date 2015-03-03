@@ -1,9 +1,8 @@
 #Project Summary
 
-Where's My Waste is designed to 
+Where's My Waste is designed to show New Yorkers what happens to their trash and recycling after Sanitation Workers pick it up from the curb. After waste is dropped off at a transfer station, it is brought to places around the metro area as far away as Virginia. New York City must pay for the trash's transportation, and to deposit it at most dump sites, at a cost to the tax payer. The more waste New Yorkers divert into recycling and compost, the more money the city will save.
 
 ##User Experience:
-
 1. Enter address
 2. Routes are drawn from the user's location to the respective transfer stations for waste and recycling through city streets. ⇐ [1](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
 3. Routes are drawn from transfer stations to dump and recycling sites in New York and out of state.
@@ -31,11 +30,11 @@ Refuse collection by type, by community board
 | Recycling Sites    	 		| 
 |-------------------------------|
 | Location          	 		|
-| Type   				 		|
-| End use 				 		|
+| Type   				|
+| End use 				|
 | Transport cost per ton 		|
 | Payment/purchase cost per ton |
-	
+
 ###Schema Models:
 | My Trash						|
 |-------------------------------|
@@ -52,3 +51,8 @@ Refuse collection by type, by community board
 | Truck			  |
 | Barge			  |
 | Train			  |
+
+##Additional Information
+###Resources
+[NYC Department of Sanitation](http://www1.nyc.gov/site/dsny/index.page)
+[Where Does New York City's Trash Go? | Living City | The New York Times](https://www.youtube.com/watch?v=Y6LzB6rMDtA)
