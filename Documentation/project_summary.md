@@ -1,5 +1,17 @@
 #Project Summary
 
+Where's My Waste is designed to 
+
+##User Experience:
+
+1. Enter address
+2. Routes are drawn from the user's location to the respective transfer stations for waste and recycling through city streets. ⇐ [1](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
+3. Routes are drawn from transfer stations to dump and recycling sites in New York and out of state.
+4. A blurb appears:
+..* “Your waste travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
+..* “Your paper recycling travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
+..* “Your plastic and glass recycling travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
+
 ##Data:
 ###Available Data:
 [DSNY Refuse and Recycling Disposal Networks - NYC Socrata](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
@@ -8,16 +20,14 @@ Shows where each type of waste from each community board goes
 [DSNY Monthly Tonnage Data](https://data.cityofnewyork.us/City-Government/DSNY-Monthly-Tonnage-Data/ebb7-mvp5)
 Refuse collection by type, by community board
 
-
 ###Necessary Data:
 | Garbage Dump Sites 	 | 
 |------------------------|
 | Location          	 |
-| End use 				 |
+| End use 		 |
 | Transport cost per ton |
 | Payment cost per ton 	 |
 	
-
 | Recycling Sites    	 		| 
 |-------------------------------|
 | Location          	 		|
@@ -26,7 +36,6 @@ Refuse collection by type, by community board
 | Transport cost per ton 		|
 | Payment/purchase cost per ton |
 	
-
 ###Schema Models:
 | My Trash						|
 |-------------------------------|
@@ -38,20 +47,8 @@ Refuse collection by type, by community board
 | Total cost per ton			|		
 | Transport types				|	
 	
-
 | Transport types |
 |-----------------|
 | Truck			  |
 | Barge			  |
 | Train			  |
-	
-
-##User Experience:
-
-1. Enter address
-2. Routes are drawn for your waste, paper, and plastic recycling to its respective Transfer station through city streets. ⇐ data exists for this [1](https://data.cityofnewyork.us/City-Government/DSNY-s-Refuse-and-Recycling-Disposal-Networks/kzmz-ivhb)
-3. Routes are drawn from transfer stations to dump and recycling sites
-4. A blurb appears:
-..* “Your waste travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
-..* “Your paper recycling travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
-..* “Your plastic and glass recycling travels -distance- miles by -transport type(s)- to -end point- where it becomes -end use-”
